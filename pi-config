@@ -16,10 +16,10 @@ DT_OVERLAY="pi3-disable-wifi,pi-disable-bt"
 ETH0="yes"
 IP_ADDRESS="192.168.1.242/24"
 ROUTERS="192.168.1.1"
-DNS="8.8.8.8 8.8.4.4 192.168.1.1"
+DNS="192.168.1.1 8.8.8.8 8.8.4.4"
 
 # Hostname of your Pi server
-HOSTNAME="phoebe.schau.dk"
+HOSTNAME="leah.schau.dk"
 
 # Enable SSH?
 SSH="yes"
